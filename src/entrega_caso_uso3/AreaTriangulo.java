@@ -37,4 +37,10 @@ public class AreaTriangulo {
 
 		return Math.PI * (radio * 2);
 	}
+	
+	// AREA CILINDRO
+	public static double areaCilindro(double radio, double altura)
+	{
+		return 2 * Math.PI * radio * (radio + altura);
+	}
 }
