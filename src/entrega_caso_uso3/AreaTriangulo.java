@@ -22,9 +22,19 @@ public class AreaTriangulo {
 	
 	////////////////////////////////////////////////////////////////////
 	// METODOS
-	
+	// AREA TRIANGULO
 	public static double areaTriangulo(double base, double altura)
 	{
 		return (base * altura) / 2;
+	}
+	// AREA CIRCULO
+	public static double areaCircunferencia(double radio) {
+
+		return Math.PI * Math.pow(radio, 2);
+	}
+	// PERIMETRO CIRCULO
+	public static double perimetroCircunferencia(double radio) {
+
+		return Math.PI * (radio * 2);
 	}
 }
