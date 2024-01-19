@@ -43,7 +43,7 @@ public class AreaTriangulo {
 	{
 		return 2 * Math.PI * radio * (radio + altura);
 	}
-	// ARE RECTANGULO
+	// AREA RECTANGULO
 	public static double areaRectangulo(double base, double altura)
 	{
 		return base * altura;
